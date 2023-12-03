@@ -15,6 +15,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .link {
@@ -64,6 +65,7 @@ body {
 
 .first {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 .sec-one {
   font-size: 56px;
@@ -71,6 +73,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--bg-color);
+  max-width: 496px;
 }
 
 .button-one {
@@ -81,6 +84,10 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--bg-color);
+  min-width: 169px;
+  height: 56px;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .button-one:hover,
@@ -95,6 +102,8 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .description {
@@ -102,6 +111,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  text-align: center;
 }
 
 .sec-three {
@@ -111,10 +121,12 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .fourth {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .sec-four {
@@ -124,6 +136,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .name-list {
@@ -132,6 +145,7 @@ body {
 
 .last-part {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .logo-footer {
@@ -153,12 +167,16 @@ body {
   color: #4d5ae5;
   background-color: #f4f4fd;
   cursor: pointer;
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 }
 
 .port-button:hover,
 .port-button:focus {
   color: #ffffff;
   background-color: #404bbf;
+  border: 1px solid transparent;
 }
 
 .port-header {
@@ -174,4 +192,143 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.header-one {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.div-one {
+  display: flex;
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.web-list {
+  display: flex;
+}
+
+.web-list > li {
+  margin-right: 40px;
+}
+
+.web {
+  padding: 24px 0 24px;
+}
+
+.add-list {
+  display: flex;
+}
+
+.add-list > .address-info {
+  margin: 40px;
+}
+
+.add-list > .desc {
+  margin: 24px;
+  width: calc((100%-72px) / 4);
+}
+
+.title-description {
+  margin-bottom: 8px;
+}
+
+.second {
+  padding: 120px 0;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+.third {
+  padding-bottom: 120px;
+}
+
+.add-list > .what-list {
+  margin-right: 24px;
+  width: calc((100%-48px) / 3);
+}
+
+.add-list > .name-list {
+  gap: 24px;
+  width: calc((100%-72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.employee {
+  padding: 32px 0;
+}
+
+.last {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.footer-des {
+  max-width: 264px;
+}
+
+img {
+  display: block;
+}
+
+.portfolio-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.portfolio-div {
+  display: flex;
+}
+
+.portfolio-main {
+  padding-top: 96px 0 120px 0;
+}
+
+.port-list {
+  display: flex;
+}
+.port-list > li {
+  justify-content: center;
+  margin: 24px;
+  margin-bottom: 72px;
+}
+
+.port-img {
+  display: flex;
+}
+
+.port-img > li {
+  flex-wrap: wrap;
+  margin-right: 24px;
+  row-gap: 48px;
+}
+
+.portfolio-image {
+  width: calc((100%-48px) / 3);
+}
+
+.portfolio-details {
+  padding: 1px solid #e7e9fc;
+  border-top: none;
+}
+
+.port-header {
+  margin-bottom: 8px;
 }
