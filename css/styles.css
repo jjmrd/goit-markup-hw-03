@@ -11,6 +11,9 @@
   --navy-blue-modal: #2e2f42;
   --dairy: #fcfcfc;
 }
+img {
+  display: block;
+}
 body {
   font-family: "Roboto", sans-serif;
   color: var(--slate);
@@ -138,7 +141,7 @@ body {
 }
 .name-list {
   background-color: var(--white);
-  flex-basis: calc((100%-72px) / 4);
+  width: calc((100%-72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 .last-part {
@@ -224,7 +227,7 @@ body {
   gap: 24px;
 }
 .second-part {
-  flex-basis: calc((100%-72px) / 4);
+  width: calc((100%-72px) / 4);
 }
 .third {
   padding-bottom: 120px;
@@ -233,7 +236,7 @@ body {
   gap: 24px;
 }
 .third-part {
-  flex-basis: calc((100%-48px) / 3);
+  width: calc((100%-48px) / 3);
 }
 .team-dets {
   gap: 24px;
@@ -259,7 +262,7 @@ body {
   row-gap: 48px;
 }
 .portfolio-img {
-  flex-basis: calc((100%-48px) / 3);
+  width: calc((100%-48px) / 3);
 }
 .portfolio-description {
   padding: 32px 16px;
