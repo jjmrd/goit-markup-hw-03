@@ -74,6 +74,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--bg-color);
   max-width: 496px;
+  margin: 0 auto;
 }
 
 .button-one {
@@ -88,6 +89,9 @@ body {
   height: 56px;
   border-radius: 4px;
   cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  border: none;
 }
 
 .button-one:hover,
@@ -102,8 +106,8 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  text-align: center;
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .description {
@@ -215,10 +219,7 @@ body {
 
 .web-list {
   display: flex;
-}
-
-.web-list > li {
-  margin-right: 40px;
+  gap: 40px;
 }
 
 .web {
@@ -229,17 +230,17 @@ body {
   display: flex;
 }
 
-.add-list > .address-info {
+.web-section {
+  gap: 40px;
+}
+
+.address-info {
   margin: 40px;
 }
 
-.add-list > .desc {
-  margin: 24px;
-  width: calc((100%-72px) / 4);
-}
-
-.title-description {
-  margin-bottom: 8px;
+.desc {
+  gap: 24px;
+  flex-basis: calc((100%-72px) / 4);
 }
 
 .second {
@@ -247,13 +248,15 @@ body {
 }
 
 .visually-hidden {
-  position: absolute !important;
-  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-  clip: rect(1px, 1px, 1px, 1px);
-  padding: 0 !important;
-  border: 0 !important;
-  height: 1px !important;
-  width: 1px !important;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
   overflow: hidden;
 }
 
@@ -262,14 +265,14 @@ body {
 }
 
 .add-list > .what-list {
-  margin-right: 24px;
-  width: calc((100%-48px) / 3);
+  gap: 24px;
+  flex-basis: calc((100%-48px) / 3);
 }
 
-.add-list > .name-list {
+.name-list {
   gap: 24px;
-  width: calc((100%-72px) / 4);
-  border-radius: 0px 0px 4px 4px;
+  flex-basis: calc((100%-72px) / 4);
+  border-radius: 0 0 4px 4px;
 }
 
 .employee {
@@ -298,15 +301,16 @@ img {
 }
 
 .portfolio-main {
-  padding-top: 96px 0 120px 0;
+  padding: 96px 0 120px 0;
 }
 
 .port-list {
   display: flex;
 }
+
 .port-list > li {
   justify-content: center;
-  margin: 24px;
+  gap: 24px;
   margin-bottom: 72px;
 }
 
@@ -314,18 +318,19 @@ img {
   display: flex;
 }
 
-.port-img > li {
+.port-img .portfolio-image {
   flex-wrap: wrap;
-  margin-right: 24px;
+  column-gap: 24px;
   row-gap: 48px;
 }
 
 .portfolio-image {
-  width: calc((100%-48px) / 3);
+  flex-basis: calc((100%-48px) / 3);
 }
 
 .portfolio-details {
-  padding: 1px solid #e7e9fc;
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
   border-top: none;
 }
 
