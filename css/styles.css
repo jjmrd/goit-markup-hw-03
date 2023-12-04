@@ -48,9 +48,6 @@ body {
 .web:focus {
   color: var(--ocean);
 }
- {
-  color: var(--ocean);
-}
 .add {
   font-style: normal;
 }
