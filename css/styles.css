@@ -215,7 +215,7 @@ body {
   position: absolute;
   width: 1px;
   height: 1px;
-  margin: -1px;
+  margin: -1px; 
   border: 0;
   padding: 0;
 
@@ -264,7 +264,7 @@ body {
   column-gap: 24px;
   row-gap: 48px;
 }
-.portfolio-img {
+.port-image {
   width: calc((100% - 48px) / 3);
 }
 .portfolio-description {
