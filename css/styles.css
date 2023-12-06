@@ -119,6 +119,7 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
   text-align: center;
+  width: 264px;
 }
 .sec-three {
   font-size: 36px;
@@ -198,6 +199,7 @@ body {
 }
 .top {
   display: flex;
+  justify-content: space-between;
 }
 .container {
   width: 1158px;
