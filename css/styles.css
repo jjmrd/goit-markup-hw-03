@@ -79,6 +79,8 @@ body {
   letter-spacing: 0.02em;
   color: var(--white);
   max-width: 496px;
+  margin: auto;
+  margin-bottom: 48px;
 }
 .button-one {
   background-color: var(--iris);
@@ -94,6 +96,7 @@ body {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  margin: auto;
 }
 .button-one:hover,
 .button-one:focus {
