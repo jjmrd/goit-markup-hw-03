@@ -57,6 +57,7 @@ body {
 }
 .list {
   list-style: none;
+  display: flex;
 }
 .address {
   font-size: 16px;
@@ -264,7 +265,6 @@ body {
 }
 .port-list-image {
   flex-wrap: wrap;
-  display: flex;
   column-gap: 24px;
   row-gap: 48px;
 }
