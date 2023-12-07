@@ -3,34 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Studio</title>
-    <!--Style Normalization-->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-      integrity="sha512-gA2Bvu0/hw4oj0Lp8ZHjK+o3S4BE5m8d/wNVy6ktKLhHKPpWLQwv9ixzuWirWOakoJqlBdePq2NhoCaUOQ5npQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <!--Google Fonts-->
+    <title>Main</title>
+    <link href="./css/styles.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,800;1,800&amp;family=Roboto:ital,wght@0,500;0,700;0,900;1,400;1,500;1,700;1,900&amp;display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <!--Local CSS-->
-    <link href="./css/styles.css" rel="stylesheet" />
   </head>
   <body>
-    <header class="top-front">
-      <div class="top container">
+    <!-- Header -->
+    <header class="main-portfolio-header">
+      <div class="main-portfolio-div container">
         <nav class="logo">
           <a class="web-logo link" href="./index.html"
             >Web<span class="studio-logo">Studio</span></a
@@ -48,7 +33,7 @@
           </ul>
         </nav>
         <address class="add">
-          <ul class="add-list add-dets list">
+          <ul class="add-list add-list-header list">
             <li>
               <a class="address link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
@@ -75,29 +60,29 @@
       <section class="second sec">
         <div class="container">
           <h2 class="visually-hidden">Lorem, ipsum.</h2>
-          <ul class="add-list sec-dets list">
-            <li class="second-part">
+          <ul class="add-list add-list-second list">
+            <li class="second-section-list">
               <h3 class="title-description">Strategy</h3>
               <p class="description">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
             </li>
-            <li class="second-part">
+            <li class="second-section-list">
               <h3 class="title-description">Punctuality</h3>
               <p class="description">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
-            <li class="second-part">
+            <li class="second-section-list">
               <h3 class="title-description">Diligence</h3>
               <p class="description">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
             </li>
-            <li class="second-part">
+            <li class="second-section-list">
               <h3 class="title-description">Technologies</h3>
               <p class="description">
                 Design practice focused on digital experiences. We bring forth a
@@ -111,14 +96,14 @@
       <section class="third sec">
         <div class="container">
           <h2 class="sec-three">What are we doing</h2>
-          <ul class="add-list image-dets list">
-            <li class="third-part">
+          <ul class="add-list add-list-third list">
+            <li class="third-section-list">
               <img src="./images/img%201.jpg" alt="i1" width="360" />
             </li>
-            <li class="third-part">
+            <li class="third-section-list">
               <img src="./images/img%202.jpg" alt="i2" width="360" />
             </li>
-            <li class="third-part">
+            <li class="third-section-list">
               <img src="./images/img%203.jpg" alt="i3" width="360" />
             </li>
           </ul>
@@ -128,31 +113,31 @@
       <section class="fourth sec">
         <div class="container">
           <h2 class="sec-four">Our Team</h2>
-          <ul class="add-list team-dets list">
+          <ul class="add-list add-list-fourth list">
             <li class="name-list">
               <img src="./images/Team%20Card%201.jpg" alt="i1" width="264" />
-              <div class="employee">
+              <div class="fourth-section-div">
                 <h3 class="title-description">Mark Guerrero</h3>
                 <p class="description">Product Designer</p>
               </div>
             </li>
             <li class="name-list">
               <img src="./images/Team%20Card%202.jpg" alt="i1" width="264" />
-              <div class="employee">
+              <div class="fourth-section-div">
                 <h3 class="title-description">Tom Ford</h3>
                 <p class="description">Frontend Developer</p>
               </div>
             </li>
             <li class="name-list">
               <img src="./images/Team%20Card%203.jpg" alt="i1" width="264" />
-              <div class="employee">
+              <div class="fourth-section-div">
                 <h3 class="title-description">Camila Garcia</h3>
                 <p class="description">Marketing</p>
               </div>
             </li>
             <li class="name-list">
               <img src="./images/Team%20Card%204.jpg" alt="i1" width="264" />
-              <div class="employee">
+              <div class="fourth-section-div">
                 <h3 class="title-description">Daniel Wilson</h3>
                 <p class="description">UI Designer</p>
               </div>
@@ -161,9 +146,10 @@
         </div>
       </section>
     </main>
+    <!-- Footer -->
     <footer class="last-part">
       <div class="container">
-        <a class="web-logo last-logo link" href="./index.html"
+        <a class="web-logo web-footer link" href="./index.html"
           >Web<span class="logo-footer">Studio</span></a
         >
         <p class="footer-des">
