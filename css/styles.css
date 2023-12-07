@@ -11,9 +11,15 @@
   --navy-blue-modal: #2e2f42;
   --dairy: #fcfcfc;
 }
-*{
-  margin:0;
+* {
+  box-sizing: border-box;
+  margin: 0;
   padding: 0;
+}
+img {
+  display: block;
+  height: auto;
+  width: auto;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -267,102 +273,103 @@ body {
 .second-section-list {
   flex-basis: calc((100% - 72px) / 4);
 }
-.title-description{
+.title-description {
   margin-bottom: 8px;
 }
 
 /* Third Section */
-.third{
+.third {
   padding-bottom: 120px;
 }
-.sec-three{
+.sec-three {
   margin-bottom: 72px;
 }
-.add-list{
+.add-list {
   display: flex;
 }
-.add-list-third{
+.add-list-third {
   gap: 24px;
 }
-.third-section-list{
+.third-section-list {
   flex-basis: calc((100% - 3 * 16px) / 3);
 }
 
 /* Fourth Section */
-.fourth{
+.fourth {
   padding: 120px 0;
 }
-.sec-four{
+.sec-four {
   margin-bottom: 72px;
 }
-.add-list{
+.add-list {
   display: flex;
 }
-.add-list-fourth{
+.add-list-fourth {
   gap: 24px;
 }
-.name-list{
+.name-list {
   flex-basis: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
-.fourth-section-div{
+.fourth-section-div {
   padding: 32px 0;
 }
-.title-description{
+.title-description {
   text-align: center;
   margin-bottom: 8px;
 }
-.description{
+.description {
   text-align: center;
 }
 
 /* Footer */
-.last-part{
+.last-part {
   padding: 100px 0;
 }
-.web-logo{
+.web-logo {
   display: inline-block;
 }
-.web-footer{
+.web-footer {
   margin-bottom: 16px;
 }
-.footer-des{
+.footer-des {
   max-width: 264px;
 }
 
 /* Portfolio Main */
-.portfolio-main{
+.portfolio-main {
   padding-top: 96px;
   padding-bottom: 120px;
 }
-.port-list{
+.port-list {
   display: flex;
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
 }
-.port-button{
+.port-button {
   padding: 12px 24px;
   border: 1px solid var(--cornflower);
   border-radius: 4px;
 }
-.port-button:hover, .port-button:focus{
+.port-button:hover,
+.port-button:focus {
   border: 1px solid transparent;
 }
-.port-img{
+.port-img {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
 }
-.port-img-list{
+.port-img-list {
   width: calc((100% - 48px) / 3);
 }
-.port-img-div{
+.port-img-div {
   padding: 32px 16px;
   border: 1px solid var(--cornflower);
   border-top: none;
 }
-.port-header{
+.port-header {
   margin-bottom: 8px;
 }
